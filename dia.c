@@ -4,6 +4,8 @@
 double area(double radius);
 double circumference(double radius);
 double diameter(double radius);
+
+
 int main() {
     double radius, circleArea, circleCircumference;
 
@@ -29,3 +31,7 @@ double area(double r)
 {
   return r+r;
 }
+double area(double r)
+{
+    return 2*PI*r
+        }
