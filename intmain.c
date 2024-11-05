@@ -1,7 +1,6 @@
 #include <stdio.h>
 #define PI 3.14159
 
-
 double area(double radius);                
 double circumference(double radius);       
 
@@ -16,7 +15,6 @@ int main() {
     circleArea = area(radius);
     circleCircumference = circumference(radius);
 
-   
     printf("Area of the circle: %.2lf\n", circleArea);
     printf("Circumference of the circle: %.2lf\n", circleCircumference);
 
