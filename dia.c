@@ -31,7 +31,7 @@ double area(double r)
 {
   return r+r;
 }
-double area(double r)
+double circumference(double r)
 {
     return 2*PI*r
         }
