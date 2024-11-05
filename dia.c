@@ -18,12 +18,14 @@ int main() {
 
     printf("Area of the circle: %.2lf\n", circleArea);
     printf("Circumference of the circle: %.2lf\n", circleCircumference);
-    printf("diameter of the circle: %.2lf\n", circleCircumference)
+    printf("diameter of the circle: %.2lf\n", circleDiameter);
     return 0;
 }
 double area(double r)
-double area(double r)
 {
     return PI*r*r;
-  return PI+r+r;
+}
+double area(double r)
+{
+  return r+r;
 }
